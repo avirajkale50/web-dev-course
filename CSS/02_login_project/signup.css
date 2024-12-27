@@ -1,0 +1,45 @@
+/* This is the CSS file for the signup page. */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: 100vh;
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 30px;
+        width: 300px;
+      }
+      h2 {
+        color: #3e78ff;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: xx-large;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input {
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      button {
+        background-color: rgb(16, 127, 255);
+        color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: rgb(44, 142, 255);
+        border: 1px solid #3e78ff;
+      }
